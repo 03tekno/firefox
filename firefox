@@ -15,7 +15,7 @@ for i in {1..100}; do
     echo $i
     sleep 0.1
 done
-) | zenity --progress --title="Task in progress" --text="Please wait..." --percentage=0
+) | zenity --progress --title="Firefox is being installed" --text="Please wait..." --percentage=0
     tar -xf firefox.tar.bz2
     rm -f firefox.tar.bz2
     cd "$curdir"
